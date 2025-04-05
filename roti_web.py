@@ -5,7 +5,7 @@ from PIL import Image
 st.set_page_config(page_title="Roti Bliss", page_icon="🥘", layout="wide")
 
 # Load a banner image
-banner = Image.open(r"C:\Users\Dell\OneDrive\Documents\Pyhton_codes\roti_banner.jpg")
+banner = Image.open("roti_banner.jpg")
 
 # Apply custom styles
 st.markdown("""
