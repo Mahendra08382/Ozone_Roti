@@ -1,8 +1,36 @@
 import streamlit as st
 from PIL import Image
 
+
 # Set page configuration
 st.set_page_config(page_title="Ozone Rotis", page_icon="🥘", layout="wide")
+
+st.markdown("""
+    <style>
+        .menu-card {
+            background-color: #fff7e6;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            text-align: center;
+            transition: 0.3s;
+        }
+        .menu-card:hover {
+            box-shadow: 4px 4px 20px rgba(0,0,0,0.2);
+        }
+        .menu-card h4 {
+            color: #8B0000;
+            margin-bottom: 5px;
+        }
+        .menu-card p {
+            font-size: 18px;
+            margin: 0;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
+
 
 # Load a banner image
 banner = Image.open("roti_banner.jpg")
