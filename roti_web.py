@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 # Set page configuration
-st.set_page_config(page_title="Roti Bliss", page_icon="🥘", layout="wide")
+st.set_page_config(page_title="Ozone Rotis", page_icon="🥘", layout="wide")
 
 # Load a banner image
 banner = Image.open("roti_banner.jpg")
@@ -30,7 +30,7 @@ st.markdown("""
 st.image(banner, use_column_width=True)
 
 # Title and tagline
-st.markdown("## 🫓 **Welcome to Roti Bliss** – Fresh. Soft. Delicious.")
+st.markdown("## 🫓 **Welcome to Ozone Roti Center** – Organic Fresh. Soft. Delicious.")
 st.markdown("<hr>", unsafe_allow_html=True)
 
 # Menu Section
