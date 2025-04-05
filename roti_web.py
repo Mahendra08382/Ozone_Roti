@@ -27,7 +27,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Banner
-st.image(banner, use_column_width=True)
+st.image(banner, use_container_width=True)
+
 
 # Title and tagline
 st.markdown("## 🫓 **Welcome to Ozone Roti Center** – Organic Fresh. Soft. Delicious.")
@@ -79,4 +80,3 @@ st.write("📱 Phone: +91-9876543210")
 st.write("📧 Email: rotibliss@shopmail.com")
 
 st.markdown("##### Follow us on [Instagram](https://instagram.com) | [Facebook](https://facebook.com)")
-
