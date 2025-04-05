@@ -65,12 +65,12 @@ st.markdown("<hr>", unsafe_allow_html=True)
 # Menu Section
 st.markdown("### 🧾 Today's Menu")
 menu_items = {
-    "Plain Roti": "₹10",
-    "Butter Roti": "₹15",
-    "Tandoori Roti": "₹20",
-    "Stuffed Paratha": "₹30",
-    "Paneer Roti Wrap": "₹50",
-    "Combo Meal (2 Roti + Sabzi)": "₹70"
+    "Jawar Roti": "₹10",
+    "Bajra Roti": "₹10",
+    "Rice Roti": "₹10",
+    "Chapati": "₹10",
+    "Pooran Poli": "₹20",
+    "Combo Meal (2 Jawar Roti + Sabzi)": "₹30"
 }
 
 cols = st.columns(3)
