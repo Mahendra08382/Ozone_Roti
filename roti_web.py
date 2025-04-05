@@ -103,8 +103,8 @@ st.markdown("<hr>", unsafe_allow_html=True)
 
 # Contact Section
 st.markdown("### 📞 Contact Us")
-st.write("📍 Location: 123, Tasty Lane, Food City")
-st.write("📱 Phone: +91-9876543210")
-st.write("📧 Email: rotibliss@shopmail.com")
+st.write("📍 Habbu Complex , Habbuwada Karwar - 581301")
+st.write("📱 Phone: +91-8549939928")
+st.write("📧 Email: ozonerotis@gmail.com")
 
 st.markdown("##### Follow us on [Instagram](https://instagram.com) | [Facebook](https://facebook.com)")
